@@ -138,6 +138,14 @@ void UGridDataComponent::BFS(int x, int y, int depth, TArray<FGridNode>& result)
 	}
 	delete[] Visited;
 }
+void UGridDataComponent::BlockNode(int x, int y)
+{
+	Grid2DArray[x][y]->isBlocked = true;
+}
+void UGridDataComponent::UnBlockNode(int x, int y)
+{
+	Grid2DArray[x][y]->isBlocked = false;
+}
 TArray<FGridNode>& UGridDataComponent::GetPossiblePaths(int x, int y, int depth)
 {
 	TArray<FGridNode>*Result = new TArray<FGridNode>();

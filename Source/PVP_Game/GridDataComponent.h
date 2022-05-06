@@ -64,6 +64,12 @@ public:
 	void CreateGrid(int width, int height);
 
 	UFUNCTION(BlueprintCallable, Category = "Grid")
+	void BlockNode(int x, int y);
+
+	UFUNCTION(BlueprintCallable, Category = "Grid")
+	void UnBlockNode(int x, int y);
+
+	UFUNCTION(BlueprintCallable, Category = "Grid")
 	TArray<FGridNode>& GetPossiblePaths(int x, int y, int depth);
 	
 private:
