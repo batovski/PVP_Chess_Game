@@ -42,6 +42,19 @@ public:
 	}
 };
 
+USTRUCT()
+struct FAStarCell 
+{
+	GENERATED_BODY()
+public:
+	FAStarCell* parent;
+	// f = g + h
+	double f, g, h;
+	int x, y;
+
+	void SetParent(FAStarCell* cell);
+};
+
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class PVP_GAME_API UGridDataComponent : public UActorComponent
 {
@@ -71,10 +84,16 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Grid")
 	TArray<FGridNode>& GetPossiblePaths(int x, int y, int depth);
+
+	UFUNCTION(BlueprintCallable, Category = "Grid")
+	TArray<FGridNode>& GetPath(int StartX, int StartY, int EndX, int EndY);
 	
 private:
 	void DFS(int x, int y,int depth, TArray<FGridNode>& result);
 	void BFS(int x, int y, int depth, TArray<FGridNode>& result);
+	void AStar(int StartX, int StartY, int EndX, int EndY, TArray<FGridNode>& result);
+	double CalculateHValue(int currentX, int currentY, int EndX, int EndY);
+	void BackTraceAStar(FAStarCell* endCell, TArray<FGridNode>& result);
 
 	UPROPERTY(EditAnywhere, Category = "Grid")
 	int width;

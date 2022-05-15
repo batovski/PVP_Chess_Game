@@ -138,6 +138,148 @@ void UGridDataComponent::BFS(int x, int y, int depth, TArray<FGridNode>& result)
 	}
 	delete[] Visited;
 }
+
+void UGridDataComponent::AStar(int StartX, int StartY, int EndX, int EndY, TArray<FGridNode>& result)
+{
+	//there is an assumption that cell is valid:
+	if (StartX == EndX && StartY == EndY) { return; }
+
+	// Declare a 2D array of structure to hold the details
+		// of that cell
+
+	TArray<TArray<FAStarCell*>> cellDetails;
+	for (int i = 0; i < height; i++) {
+		TArray<FAStarCell*> arr;
+		cellDetails.Add(arr);
+		for (int j = 0; j < width; j++)
+		{
+			FAStarCell* cell = new FAStarCell();
+			cellDetails[i].Add(cell);
+		}
+	}
+	TArray<TArray<bool>> closedSet;
+	for (int i = 0; i < height; i++) {
+		TArray<bool> arr;
+		closedSet.Add(arr);
+		for (int j = 0; j < width; j++)
+		{
+			bool cell = false;
+			closedSet[i].Add(cell);
+		}
+	}
+
+	
+
+	for (int i = 0; i < height; i++) {
+		for (int j = 0; j < width; j++) {
+			cellDetails[i][j]->f = FLT_MAX;
+			cellDetails[i][j]->g = FLT_MAX;
+			cellDetails[i][j]->h = FLT_MAX;
+			cellDetails[i][j]->x = i;
+			cellDetails[i][j]->y = j;
+			cellDetails[i][j]->parent = nullptr;
+		}
+	}
+
+	cellDetails[StartX][StartY]->f = 0.0;
+	cellDetails[StartX][StartY]->g = 0.0;
+	cellDetails[StartX][StartY]->h = 0.0;
+
+	TArray<FAStarCell*> openSet;
+
+	FAStarCell* current;
+	openSet.Reserve(height * width);
+
+	openSet.Push(cellDetails[StartX][StartY]);
+
+	while(openSet.Num() != 0)
+	{
+		//Find Max priaority element:
+		int it_index = 0;
+		current = openSet[0];
+
+		for (int i = 0; i < openSet.Num(); i++) {
+			auto cell = openSet[i];
+			if (cell->f < current->f) {
+				current = cell;
+				it_index = i;
+			}
+
+			else if (cell->f == current->f) {
+				if (cell->h < current->h)
+				{
+					current = cell;
+					it_index = i;
+				}
+			}
+		}
+		UE_LOG(LogTemp, Warning, TEXT("A* Closed Set: X: %d, Y: %d"), current->x, current->y);
+		closedSet[current->x][current->y] = true;
+		openSet.RemoveAt(it_index);
+
+		double gNew, hNew, fNew;
+
+		for (int i = -1; i <= 1; ++i)
+		{
+			for (int j = -1; j <= 1; ++j)
+			{
+				if (i == 0 && j == 0) continue;
+				if (current->x + i >= 0
+					&& current->x + i < width
+					&& current->y + j >= 0
+					&& current->y + j < height)
+				{
+					FAStarCell* Successor = cellDetails[current->x + i][current->y + j];
+					if(Successor->x == EndX && Successor->y == EndY)
+					{
+						Successor->SetParent(current);
+						BackTraceAStar(Successor, result);
+						return;
+					}
+
+					else if(closedSet[current->x + i][current->y + j] == false && !Grid2DArray[current->x + i][current->y + j]->isBlocked)
+					{
+						gNew = cellDetails[current->x][current->y]->g + 1.0;
+						hNew = CalculateHValue(current->x + i, current->y + j, EndX, EndY);
+						fNew = gNew + hNew;
+
+						if (cellDetails[current->x + i][current->y + j]->f == FLT_MAX
+							|| cellDetails[current->x + i][current->y + j]->f > fNew) {
+
+							// Update the details of this cell
+							cellDetails[current->x + i][current->y + j]->f = fNew;
+							cellDetails[current->x + i][current->y + j]->g = gNew;
+							cellDetails[current->x + i][current->y + j]->h = hNew;
+							cellDetails[current->x + i][current->y + j]->SetParent(current);
+							openSet.Push(cellDetails[current->x + i][current->y + j]);
+						}
+					}
+				}
+			}
+		}
+	}
+
+}
+void FAStarCell::SetParent(FAStarCell* cell)
+{
+	parent = cell;
+}
+double UGridDataComponent::CalculateHValue(int currentX, int currentY, int EndX, int EndY)
+{
+	return ((double)sqrt(
+		(currentX - EndX) * (currentX - EndX)
+		+ (currentY - EndY) * (currentY - EndY)));
+}
+void UGridDataComponent::BackTraceAStar(FAStarCell* endCell, TArray<FGridNode>& result)
+{
+	FAStarCell* Current = endCell;
+
+	while(Current != nullptr)
+	{
+		result.Insert(*Grid2DArray[Current->x][Current->y],0);
+		Current = Current->parent;
+	}
+}
 void UGridDataComponent::BlockNode(int x, int y)
 {
 	Grid2DArray[x][y]->isBlocked = true;
@@ -152,5 +294,16 @@ TArray<FGridNode>& UGridDataComponent::GetPossiblePaths(int x, int y, int depth)
 
 	UE_LOG(LogTemp, Warning, TEXT("Start Node: X: %d, Y: %d"), x, y);
 	BFS(x, y, depth, *Result);
+	return *Result;
+}
+
+TArray<FGridNode>& UGridDataComponent::GetPath(int StartX, int StartY, int EndX, int EndY)
+{
+	TArray<FGridNode>* Result = new TArray<FGridNode>();
+	AStar(StartX, StartY, EndX, EndY, *Result);
+	for(int i = 0; i < Result->Num(); ++i)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("A* Node Added: X: %d, Y: %d"), (*Result)[i].x, (*Result)[i].y);
+	}
 	return *Result;
 }
