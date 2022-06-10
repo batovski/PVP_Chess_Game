@@ -21,6 +21,9 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Data")
 	bool isBlocked = false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Data")
+	bool isOccupied = false;
 };
 
 USTRUCT(BlueprintType)
@@ -81,6 +84,12 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Grid")
 	void UnBlockNode(int x, int y);
+
+	UFUNCTION(BlueprintCallable, Category = "Grid")
+	void OccupieNode(int x, int y);
+
+	UFUNCTION(BlueprintCallable, Category = "Grid")
+	void UnOccupieNode(int x, int y);
 
 	UFUNCTION(BlueprintCallable, Category = "Grid")
 	TArray<FGridNode>& GetPossiblePaths(int x, int y, int depth);

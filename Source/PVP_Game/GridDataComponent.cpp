@@ -65,7 +65,6 @@ void UGridDataComponent::DFS(int x, int y, int depth, TArray<FGridNode>& result)
 
 	if(CurrentDepth != 0)
 		result.Add(*Grid2DArray[x][y]);
-	UE_LOG(LogTemp, Warning, TEXT("Added to the array: X: %d, Y: %d [DEPTH: %d]"), Grid2DArray[x][y]->x, Grid2DArray[x][y]->y, CurrentDepth);
 	for(int i = -1; i <= 1; ++i)
 	{
 		for(int j = -1; j <= 1; ++j)
@@ -108,7 +107,7 @@ void UGridDataComponent::BFS(int x, int y, int depth, TArray<FGridNode>& result)
 		}
 		if (Visited[ResultNode.ID].Value != 0)
 		{
-			UE_LOG(LogTemp, Warning, TEXT("Node Added: X: %d, Y: %d"), ResultNode.x, ResultNode.y);
+			//UE_LOG(LogTemp, Warning, TEXT("Node Added: X: %d, Y: %d"), ResultNode.x, ResultNode.y);
 			result.Add(ResultNode);
 		}
 		for (int i = -1; i <= 1; ++i)
@@ -116,9 +115,9 @@ void UGridDataComponent::BFS(int x, int y, int depth, TArray<FGridNode>& result)
 			for (int j = -1; j <= 1; ++j)
 			{
 				if (i == 0 && j == 0) continue;
-				if (ResultNode.x + i >= 0 && ResultNode.x + i < width 
+				if (ResultNode.x + i >= 0 && ResultNode.x + i < height
 					&& ResultNode.y + j >= 0 
-					&& ResultNode.y + j < height)
+					&& ResultNode.y + j < width)
 				{
 					if (Visited[Grid2DArray[ResultNode.x + i][ResultNode.y + j]->ID].Key == false &&
 						Grid2DArray[ResultNode.x + i][ResultNode.y + j]->isBlocked == false)
@@ -213,7 +212,7 @@ void UGridDataComponent::AStar(int StartX, int StartY, int EndX, int EndY, TArra
 				}
 			}
 		}
-		UE_LOG(LogTemp, Warning, TEXT("A* Closed Set: X: %d, Y: %d"), current->x, current->y);
+		//UE_LOG(LogTemp, Warning, TEXT("A* Closed Set: X: %d, Y: %d"), current->x, current->y);
 		closedSet[current->x][current->y] = true;
 		openSet.RemoveAt(it_index);
 
@@ -225,9 +224,9 @@ void UGridDataComponent::AStar(int StartX, int StartY, int EndX, int EndY, TArra
 			{
 				if (i == 0 && j == 0) continue;
 				if (current->x + i >= 0
-					&& current->x + i < width
+					&& current->x + i < height
 					&& current->y + j >= 0
-					&& current->y + j < height)
+					&& current->y + j < width)
 				{
 					FAStarCell* Successor = cellDetails[current->x + i][current->y + j];
 					if(Successor->x == EndX && Successor->y == EndY)
@@ -288,11 +287,22 @@ void UGridDataComponent::UnBlockNode(int x, int y)
 {
 	Grid2DArray[x][y]->isBlocked = false;
 }
+
+void UGridDataComponent::OccupieNode(int x, int y)
+{
+	Grid2DArray[x][y]->isOccupied = true;
+}
+
+void UGridDataComponent::UnOccupieNode(int x, int y)
+{
+	Grid2DArray[x][y]->isOccupied = false;
+}
+
 TArray<FGridNode>& UGridDataComponent::GetPossiblePaths(int x, int y, int depth)
 {
 	TArray<FGridNode>*Result = new TArray<FGridNode>();
 
-	UE_LOG(LogTemp, Warning, TEXT("Start Node: X: %d, Y: %d"), x, y);
+	//UE_LOG(LogTemp, Warning, TEXT("Start Node: X: %d, Y: %d"), x, y);
 	BFS(x, y, depth, *Result);
 	return *Result;
 }
@@ -301,9 +311,5 @@ TArray<FGridNode>& UGridDataComponent::GetPath(int StartX, int StartY, int EndX,
 {
 	TArray<FGridNode>* Result = new TArray<FGridNode>();
 	AStar(StartX, StartY, EndX, EndY, *Result);
-	for(int i = 0; i < Result->Num(); ++i)
-	{
-		UE_LOG(LogTemp, Warning, TEXT("A* Node Added: X: %d, Y: %d"), (*Result)[i].x, (*Result)[i].y);
-	}
 	return *Result;
 }
