@@ -236,7 +236,7 @@ void UGridDataComponent::AStar(int StartX, int StartY, int EndX, int EndY, TArra
 						return;
 					}
 
-					else if(closedSet[current->x + i][current->y + j] == false && !Grid2DArray[current->x + i][current->y + j]->isBlocked)
+					else if(closedSet[current->x + i][current->y + j] == false && !Grid2DArray[current->x + i][current->y + j]->isBlocked && !Grid2DArray[current->x + i][current->y + j]->isOccupied)
 					{
 						gNew = cellDetails[current->x][current->y]->g + 1.0;
 						hNew = CalculateHValue(current->x + i, current->y + j, EndX, EndY);
