@@ -7,7 +7,8 @@ public class PVP_GameTarget : TargetRules
 {
 	public PVP_GameTarget( TargetInfo Target) : base(Target)
 	{
-		Type = TargetType.Game;
+        WindowsPlatform.PCHMemoryAllocationFactor = 2000;
+        Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		ExtraModuleNames.AddRange( new string[] { "PVP_Game" } );
 	}

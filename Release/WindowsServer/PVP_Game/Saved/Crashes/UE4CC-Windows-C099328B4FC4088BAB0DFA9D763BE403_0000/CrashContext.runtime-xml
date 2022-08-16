@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>E9EAA69A4190054BF224168A760EC670</ExecutionGuid>
+<CrashGUID>UE4CC-Windows-C099328B4FC4088BAB0DFA9D763BE403_0000</CrashGUID>
+<IsEnsure>false</IsEnsure>
+<IsAssert>false</IsAssert>
+<CrashType>Crash</CrashType>
+<ErrorMessage>Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffffffffffff</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<ProcessId>3168</ProcessId>
+<SecondsSinceStart>23326</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE4-PVP_Game</GameName>
+<ExecutableName>PVP_GameServer</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<Symbols>**UE4*Release-4.27-CL-0-Win64-Development</Symbols>
+<PlatformName>WindowsServer</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Server</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.27.2-0+++UE4+Release-4.27</EngineVersion>
+<CommandLine></CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale>en-US</AppDefaultLocale>
+<BuildVersion>++UE4+Release-4.27-CL-0</BuildVersion>
+<IsUE4Release>false</IsUE4Release>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>C:/Users/bitch/Documents/GitHub/PVP_Chess_Game/Release/WindowsServer/PVP_Game/Binaries/Win64/</BaseDir>
+<RootDir>C:/Users/bitch/Documents/GitHub/PVP_Chess_Game/Release/WindowsServer/</RootDir>
+<MachineId>3F5E1B304EF890E4C09325961FCA1B7A</MachineId>
+<LoginId>3f5e1b304ef890e4c09325961fca1b7a</LoginId>
+<EpicAccountId>66f235a6779349b78a5a1ed7cadef41a</EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName>BPGS_TurnBasedGameState_C</GameStateName>
+<Misc.NumberOfCores>4</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Core(TM) i5-8257U CPU @ 1.40GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>Intel(R) Iris(R) Plus Graphics 645</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10 (Release 2009)</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>8428630016</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>8</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+PVP_GameServer  0x00007ff63a560000 + a24440          
+PVP_GameServer  0x00007ff63a560000 + 9fb8f4          
+PVP_GameServer  0x00007ff63a560000 + c0a359          
+PVP_GameServer  0x00007ff63a560000 + 630d2ff         
+PVP_GameServer  0x00007ff63a560000 + 34e1205         
+PVP_GameServer  0x00007ff63a560000 + 61d031e         
+PVP_GameServer  0x00007ff63a560000 + 60306e0         
+PVP_GameServer  0x00007ff63a560000 + 99265b          
+PVP_GameServer  0x00007ff63a560000 + 9a68ac          
+PVP_GameServer  0x00007ff63a560000 + 9a697a          
+PVP_GameServer  0x00007ff63a560000 + 9a8aac          
+PVP_GameServer  0x00007ff63a560000 + 9b7364          
+PVP_GameServer  0x00007ff63a560000 + 7dc7cbe         
+KERNEL32        0x00007ffe4fa60000 + 17034           
+ntdll           0x00007ffe51590000 + 52651           
+</PCallStack>
+<PCallStackHash>00D91C539C625A99CD7FF16510BCD014038E43A6</PCallStackHash>
+<Threads><Thread><CallStack>ntdll           0x00007ffe51590000 + 9cdf4           
+KERNELBASE      0x00007ffe4eef0000 + 21a8e           
+PVP_GameServer  0x00007ff63a560000 + 2e4136d         
+PVP_GameServer  0x00007ff63a560000 + 7dd3c1e         
+VCRUNTIME140    0x00007ffe2fc60000 + efc0            
+ntdll           0x00007ffe51590000 + a20cf           
+ntdll           0x00007ffe51590000 + 51454           
+ntdll           0x00007ffe51590000 + a0bfe           
+PVP_GameServer  0x00007ff63a560000 + a24440          
+PVP_GameServer  0x00007ff63a560000 + 9fb8f4          
+PVP_GameServer  0x00007ff63a560000 + c0a359          
+PVP_GameServer  0x00007ff63a560000 + 630d2ff         
+PVP_GameServer  0x00007ff63a560000 + 34e1205         
+PVP_GameServer  0x00007ff63a560000 + 61d031e         
+PVP_GameServer  0x00007ff63a560000 + 60306e0         
+PVP_GameServer  0x00007ff63a560000 + 99265b          
+PVP_GameServer  0x00007ff63a560000 + 9a68ac          
+PVP_GameServer  0x00007ff63a560000 + 9a697a          
+PVP_GameServer  0x00007ff63a560000 + 9a8aac          
+PVP_GameServer  0x00007ff63a560000 + 9b7364          
+PVP_GameServer  0x00007ff63a560000 + 7dc7cbe         
+KERNEL32        0x00007ffe4fa60000 + 17034           
+ntdll           0x00007ffe51590000 + 52651           
+</CallStack>
+<IsCrashed>true</IsCrashed>
+<Registers></Registers>
+<ThreadID>5600</ThreadID>
+<ThreadName>GameThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll           0x00007ffe51590000 + 9cdf4           
+KERNELBASE      0x00007ffe4eef0000 + 21a8e           
+PVP_GameServer  0x00007ff63a560000 + 2e66dca         
+PVP_GameServer  0x00007ff63a560000 + 2932871         
+PVP_GameServer  0x00007ff63a560000 + 2933ed0         
+PVP_GameServer  0x00007ff63a560000 + 2939b45         
+PVP_GameServer  0x00007ff63a560000 + 2e62b19         
+PVP_GameServer  0x00007ff63a560000 + 2e58c5a         
+KERNEL32        0x00007ffe4fa60000 + 17034           
+ntdll           0x00007ffe51590000 + 52651           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4248</ThreadID>
+<ThreadName>TaskGraphThreadNP 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll           0x00007ffe51590000 + 9cdf4           
+KERNELBASE      0x00007ffe4eef0000 + 21a8e           
+PVP_GameServer  0x00007ff63a560000 + 2e66dca         
+PVP_GameServer  0x00007ff63a560000 + 2932871         
+PVP_GameServer  0x00007ff63a560000 + 2933ed0         
+PVP_GameServer  0x00007ff63a560000 + 2939b45         
+PVP_GameServer  0x00007ff63a560000 + 2e62b19         
+PVP_GameServer  0x00007ff63a560000 + 2e58c5a         
+KERNEL32        0x00007ffe4fa60000 + 17034           
+ntdll           0x00007ffe51590000 + 52651           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13188</ThreadID>
+<ThreadName>TaskGraphThreadNP 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll           0x00007ffe51590000 + 9cdf4           
+KERNELBASE      0x00007ffe4eef0000 + 21a8e           
+PVP_GameServer  0x00007ff63a560000 + 2e66dca         
+PVP_GameServer  0x00007ff63a560000 + 2932871         
+PVP_GameServer  0x00007ff63a560000 + 2933ed0         
+PVP_GameServer  0x00007ff63a560000 + 2939b45         
+PVP_GameServer  0x00007ff63a560000 + 2e62b19         
+PVP_GameServer  0x00007ff63a560000 + 2e58c5a         
+KERNEL32        0x00007ffe4fa60000 + 17034           
+ntdll           0x00007ffe51590000 + 52651           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10032</ThreadID>
+<ThreadName>TaskGraphThreadNP 2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll           0x00007ffe51590000 + 9cdf4           
+KERNELBASE      0x00007ffe4eef0000 + 21a8e           
+PVP_GameServer  0x00007ff63a560000 + 2e66dca         
+PVP_GameServer  0x00007ff63a560000 + 2932871         
+PVP_GameServer  0x00007ff63a560000 + 2933ed0         
+PVP_GameServer  0x00007ff63a560000 + 2939b45         
+PVP_GameServer  0x00007ff63a560000 + 2e62b19         
+PVP_GameServer  0x00007ff63a560000 + 2e58c5a         
+KERNEL32        0x00007ffe4fa60000 + 17034           
+ntdll           0x00007ffe51590000 + 52651           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2236</ThreadID>
+<ThreadName>TaskGraphThreadNP 3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll           0x00007ffe51590000 + 9cdf4           
+KERNELBASE      0x00007ffe4eef0000 + 21a8e           
+PVP_GameServer  0x00007ff63a560000 + 2e66dca         
+PVP_GameServer  0x00007ff63a560000 + 29336d5         
+PVP_GameServer  0x00007ff63a560000 + 2933e3e         
+PVP_GameServer  0x00007ff63a560000 + 2c5e29d         
+PVP_GameServer  0x00007ff63a560000 + 2e62b19         
+PVP_GameServer  0x00007ff63a560000 + 2e58c5a         
+KERNEL32        0x00007ffe4fa60000 + 17034           
+ntdll           0x00007ffe51590000 + 52651           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12472</ThreadID>
+<ThreadName>StatsThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll           0x00007ffe51590000 + 9cdf4           
+KERNELBASE      0x00007ffe4eef0000 + 21a8e           
+PVP_GameServer  0x00007ff63a560000 + 2e66dca         
+PVP_GameServer  0x00007ff63a560000 + 2a25c80         
+PVP_GameServer  0x00007ff63a560000 + 2e62b19         
+PVP_GameServer  0x00007ff63a560000 + 2e58c5a         
+KERNEL32        0x00007ffe4fa60000 + 17034           
+ntdll           0x00007ffe51590000 + 52651           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8236</ThreadID>
+<ThreadName>PoolThread 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll           0x00007ffe51590000 + 9cdf4           
+KERNELBASE      0x00007ffe4eef0000 + 21a8e           
+PVP_GameServer  0x00007ff63a560000 + 2e66dca         
+PVP_GameServer  0x00007ff63a560000 + 2a25c80         
+PVP_GameServer  0x00007ff63a560000 + 2e62b19         
+PVP_GameServer  0x00007ff63a560000 + 2e58c5a         
+KERNEL32        0x00007ffe4fa60000 + 17034           
+ntdll           0x00007ffe51590000 + 52651           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4816</ThreadID>
+<ThreadName>PoolThread 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll           0x00007ffe51590000 + 9d3f4           
+KERNELBASE      0x00007ffe4eef0000 + 4967e           
+PVP_GameServer  0x00007ff63a560000 + 2ba6465         
+PVP_GameServer  0x00007ff63a560000 + 2e62b19         
+PVP_GameServer  0x00007ff63a560000 + 2e58c5a         
+KERNEL32        0x00007ffe4fa60000 + 17034           
+ntdll           0x00007ffe51590000 + 52651           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>5296</ThreadID>
+<ThreadName>FAsyncWriter_PVP_Game_2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll           0x00007ffe51590000 + 9d3f4           
+KERNELBASE      0x00007ffe4eef0000 + 4967e           
+PVP_GameServer  0x00007ff63a560000 + 32e8996         
+PVP_GameServer  0x00007ff63a560000 + 2e62b19         
+PVP_GameServer  0x00007ff63a560000 + 2e58c5a         
+KERNEL32        0x00007ffe4fa60000 + 17034           
+ntdll           0x00007ffe51590000 + 52651           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9148</ThreadID>
+<ThreadName>HttpManagerThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll           0x00007ffe51590000 + 9cdf4           
+KERNELBASE      0x00007ffe4eef0000 + 21a8e           
+PVP_GameServer  0x00007ff63a560000 + 2e66dca         
+PVP_GameServer  0x00007ff63a560000 + b4bd56          
+PVP_GameServer  0x00007ff63a560000 + 2e62b19         
+PVP_GameServer  0x00007ff63a560000 + 2e58c5a         
+KERNEL32        0x00007ffe4fa60000 + 17034           
+ntdll           0x00007ffe51590000 + 52651           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8336</ThreadID>
+<ThreadName>OnlineAsyncTaskThreadNull DefaultInstance(1)</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll           0x00007ffe51590000 + 9cdf4           
+KERNELBASE      0x00007ffe4eef0000 + 21a8e           
+PVP_GameServer  0x00007ff63a560000 + 2e66dca         
+PVP_GameServer  0x00007ff63a560000 + 2a25c80         
+PVP_GameServer  0x00007ff63a560000 + 2e62b19         
+PVP_GameServer  0x00007ff63a560000 + 2e58c5a         
+KERNEL32        0x00007ffe4fa60000 + 17034           
+ntdll           0x00007ffe51590000 + 52651           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8520</ThreadID>
+<ThreadName>PoolThread 2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll           0x00007ffe51590000 + 9cdf4           
+KERNELBASE      0x00007ffe4eef0000 + 21a8e           
+PVP_GameServer  0x00007ff63a560000 + 2e66dca         
+PVP_GameServer  0x00007ff63a560000 + 2a25c80         
+PVP_GameServer  0x00007ff63a560000 + 2e62b19         
+PVP_GameServer  0x00007ff63a560000 + 2e58c5a         
+KERNEL32        0x00007ffe4fa60000 + 17034           
+ntdll           0x00007ffe51590000 + 52651           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1576</ThreadID>
+<ThreadName>PoolThread 3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll           0x00007ffe51590000 + 9cdf4           
+KERNELBASE      0x00007ffe4eef0000 + 21a8e           
+PVP_GameServer  0x00007ff63a560000 + 2e66dca         
+PVP_GameServer  0x00007ff63a560000 + 633a895         
+PVP_GameServer  0x00007ff63a560000 + 2e62b19         
+PVP_GameServer  0x00007ff63a560000 + 2e58c5a         
+KERNEL32        0x00007ffe4fa60000 + 17034           
+ntdll           0x00007ffe51590000 + 52651           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1284</ThreadID>
+<ThreadName>ODSCThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll           0x00007ffe51590000 + 9cdf4           
+KERNELBASE      0x00007ffe4eef0000 + 21a8e           
+PVP_GameServer  0x00007ff63a560000 + 2e66dca         
+PVP_GameServer  0x00007ff63a560000 + 38e584a         
+PVP_GameServer  0x00007ff63a560000 + 2e62b19         
+PVP_GameServer  0x00007ff63a560000 + 2e58c5a         
+KERNEL32        0x00007ffe4fa60000 + 17034           
+ntdll           0x00007ffe51590000 + 52651           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10756</ThreadID>
+<ThreadName>FMessageBus.DefaultBus.Router</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll           0x00007ffe51590000 + 9d3f4           
+KERNELBASE      0x00007ffe4eef0000 + 4967e           
+PVP_GameServer  0x00007ff63a560000 + 2e63fae         
+PVP_GameServer  0x00007ff63a560000 + 277ef39         
+PVP_GameServer  0x00007ff63a560000 + 2e62b19         
+PVP_GameServer  0x00007ff63a560000 + 2e58c5a         
+KERNEL32        0x00007ffe4fa60000 + 17034           
+ntdll           0x00007ffe51590000 + 52651           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6168</ThreadID>
+<ThreadName>LiveLinkMessageBusDiscoveryManager</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll           0x00007ffe51590000 + 9cdf4           
+KERNELBASE      0x00007ffe4eef0000 + 21a8e           
+PVP_GameServer  0x00007ff63a560000 + 2e66dca         
+PVP_GameServer  0x00007ff63a560000 + 7344862         
+PVP_GameServer  0x00007ff63a560000 + 2e62b19         
+PVP_GameServer  0x00007ff63a560000 + 2e58c5a         
+KERNEL32        0x00007ffe4fa60000 + 17034           
+ntdll           0x00007ffe51590000 + 52651           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11400</ThreadID>
+<ThreadName>FFileTransferRunnable</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll           0x00007ffe51590000 + 9cdf4           
+KERNELBASE      0x00007ffe4eef0000 + 21a8e           
+PVP_GameServer  0x00007ff63a560000 + 2e66dca         
+PVP_GameServer  0x00007ff63a560000 + 2a25c80         
+PVP_GameServer  0x00007ff63a560000 + 2e62b19         
+PVP_GameServer  0x00007ff63a560000 + 2e58c5a         
+KERNEL32        0x00007ffe4fa60000 + 17034           
+ntdll           0x00007ffe51590000 + 52651           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>384</ThreadID>
+<ThreadName>PoolThread 4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll           0x00007ffe51590000 + 9cdf4           
+KERNELBASE      0x00007ffe4eef0000 + 21a8e           
+PVP_GameServer  0x00007ff63a560000 + 2e66dca         
+PVP_GameServer  0x00007ff63a560000 + 2a25c80         
+PVP_GameServer  0x00007ff63a560000 + 2e62b19         
+PVP_GameServer  0x00007ff63a560000 + 2e58c5a         
+KERNEL32        0x00007ffe4fa60000 + 17034           
+ntdll           0x00007ffe51590000 + 52651           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6276</ThreadID>
+<ThreadName>PoolThread 5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll           0x00007ffe51590000 + 9cdf4           
+KERNELBASE      0x00007ffe4eef0000 + 21a8e           
+PVP_GameServer  0x00007ff63a560000 + 2e66dca         
+PVP_GameServer  0x00007ff63a560000 + 2a25c80         
+PVP_GameServer  0x00007ff63a560000 + 2e62b19         
+PVP_GameServer  0x00007ff63a560000 + 2e58c5a         
+KERNEL32        0x00007ffe4fa60000 + 17034           
+ntdll           0x00007ffe51590000 + 52651           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12688</ThreadID>
+<ThreadName>PoolThread 6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll           0x00007ffe51590000 + 9cdf4           
+KERNELBASE      0x00007ffe4eef0000 + 21a8e           
+PVP_GameServer  0x00007ff63a560000 + 2e66dca         
+PVP_GameServer  0x00007ff63a560000 + 2a25c80         
+PVP_GameServer  0x00007ff63a560000 + 2e62b19         
+PVP_GameServer  0x00007ff63a560000 + 2e58c5a         
+KERNEL32        0x00007ffe4fa60000 + 17034           
+ntdll           0x00007ffe51590000 + 52651           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8020</ThreadID>
+<ThreadName>PoolThread 7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll           0x00007ffe51590000 + 9cdf4           
+KERNELBASE      0x00007ffe4eef0000 + 21a8e           
+PVP_GameServer  0x00007ff63a560000 + 2e66dca         
+PVP_GameServer  0x00007ff63a560000 + b4bd56          
+PVP_GameServer  0x00007ff63a560000 + 2e62b19         
+PVP_GameServer  0x00007ff63a560000 + 2e58c5a         
+KERNEL32        0x00007ffe4fa60000 + 17034           
+ntdll           0x00007ffe51590000 + 52651           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14704</ThreadID>
+<ThreadName>OnlineAsyncTaskThreadSteam DefaultInstance</ThreadName>
+</Thread>
+</Threads>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<IsRunningOnBattery>true</IsRunningOnBattery>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+</PlatformProperties>
+<EngineData>
+<RHI.RHIName>NullRHI</RHI.RHIName>
+<DeviceProfile.Name>WindowsServer</DeviceProfile.Name>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
