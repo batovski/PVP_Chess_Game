@@ -1,0 +1,726 @@
+﻿Log file open, 08/15/22 16:29:48
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogPakFile: Display: Found Pak file ../../../PVP_Game/Content/Paks/PVP_Game-WindowsServer.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../PVP_Game/Content/Paks/PVP_Game-WindowsServer.pak.
+LogPakFile: PakFile PrimaryIndexSize=26058
+LogPakFile: PakFile PathHashIndexSize=48573
+LogPakFile: PakFile FullDirectoryIndexSize=64311
+LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile '../../../PVP_Game/Content/Paks/PVP_Game-WindowsServer.pak' (chunk index -1, root '../../../') mounted
+LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:../../../ File:../../../PVP_Game/Content/Paks/PVP_Game-WindowsServer.pak)
+LogPakFile: OnPakFileMounted2Time == 0.000020
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 9 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.088565
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogInit: Display: Loading text-based GConfig....
+LogPluginManager: Mounting plugin OnlineSubsystemSteam
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin SteamShared
+LogPluginManager: Mounting plugin OnlineFramework
+LogPluginManager: Mounting plugin PlayFab
+LogPluginManager: Mounting plugin AdvancedSessions
+LogPluginManager: Mounting plugin AdvancedSteamSessions
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin GameplayCameras
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin OodleData
+LogPluginManager: Mounting plugin OodleNetwork
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin PythonScriptPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin OpenImageDenoise
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin OpenXREyeTracker
+LogPluginManager: Mounting plugin OpenXR
+LogPluginManager: Mounting plugin OpenXRHandTracking
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin Takes
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogSteamShared: Display: Loading Steam SDK 1.51
+LogSteamShared: Steam SDK Loaded!
+LogOnline: OSS: Creating online subsystem instance for: Steam
+LogSteamShared: Warning: Steam Dedicated Server API failed to initialize.
+LogOnline: STEAM: [AppId: 480] Game Server API initialized 0
+LogOnline: Warning: STEAM: Failed to initialize Steam, this could be due to a Steam server and client running on the same machine. Try running with -NOSTEAM on the cmdline to disable.
+LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogOnline: Warning: STEAM: Steam API failed to initialize!
+LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogOnline: OSS: Unable to create OnlineSubsystem module Steam
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogLuminAPIImpl: Warning: MLSDK not found.  This likely means the MLSDK environment variable is not set.
+LogInit: Build: ++UE4+Release-4.27-CL-0
+LogInit: Engine Version: 4.27.2-0+++UE4+Release-4.27
+LogInit: Compatible Engine Version: 4.27.0-0+++UE4+Release-4.27
+LogInit: Net CL: 0
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i5-8257U CPU @ 1.40GHz, GPU: Intel(R) Iris(R) Plus Graphics 645
+LogInit: Compiled (64-bit): Aug 14 2022 20:44:59
+LogInit: Compiled with Visual C++: 19.33.31629.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.27
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Users/bitch/Documents/GitHub/PVP_Chess_Game/Release/WindowsServer/PVP_Game/Binaries/Win64/
+LogInit: Allocator: binned2
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 14
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 47
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [../../../PVP_Game/Saved/Config/WindowsServer/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogStreaming: Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: false, Async Post Load: false
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+[2022.08.15-23.29.49:225][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2022.08.15-23.29.49:225][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.08.15-23.29.49:225][  0]LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+[2022.08.15-23.29.49:225][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [../../../PVP_Game/Saved/Config/WindowsServer/Engine.ini]
+[2022.08.15-23.29.49:225][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.08.15-23.29.49:225][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [../../../PVP_Game/Saved/Config/WindowsServer/Engine.ini]
+[2022.08.15-23.29.49:225][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [../../../PVP_Game/Saved/Config/WindowsServer/Engine.ini]
+[2022.08.15-23.29.49:225][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.08.15-23.29.49:225][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.08.15-23.29.49:225][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.08.15-23.29.49:225][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.08.15-23.29.49:225][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.08.15-23.29.49:225][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.08.15-23.29.49:225][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.08.15-23.29.49:225][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.08.15-23.29.49:225][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [../../../PVP_Game/Saved/Config/WindowsServer/Engine.ini]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [../../../PVP_Game/Saved/Config/WindowsServer/Engine.ini]
+[2022.08.15-23.29.49:226][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../PVP_Game/Saved/Config/WindowsServer/Scalability.ini]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../PVP_Game/Saved/Config/WindowsServer/Scalability.ini]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../PVP_Game/Saved/Config/WindowsServer/Scalability.ini]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../PVP_Game/Saved/Config/WindowsServer/Scalability.ini]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.08.15-23.29.49:226][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../PVP_Game/Saved/Config/WindowsServer/Scalability.ini]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../PVP_Game/Saved/Config/WindowsServer/Scalability.ini]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../PVP_Game/Saved/Config/WindowsServer/Scalability.ini]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../PVP_Game/Saved/Config/WindowsServer/Scalability.ini]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2022.08.15-23.29.49:227][  0]LogInit: Selected Device Profile: [WindowsServer]
+[2022.08.15-23.29.49:227][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsServer]
+[2022.08.15-23.29.49:227][  0]LogHAL: Display: Platform has ~ 8 GB [8428630016 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.08.15-23.29.49:227][  0]LogInit: Going up to parent DeviceProfile [Windows]
+[2022.08.15-23.29.49:227][  0]LogInit: Going up to parent DeviceProfile []
+[2022.08.15-23.29.49:227][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../PVP_Game/Saved/Config/WindowsServer/Scalability.ini]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../PVP_Game/Saved/Config/WindowsServer/Scalability.ini]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../PVP_Game/Saved/Config/WindowsServer/Scalability.ini]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.08.15-23.29.49:227][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../PVP_Game/Saved/Config/WindowsServer/Scalability.ini]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../PVP_Game/Saved/Config/WindowsServer/Scalability.ini]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../PVP_Game/Saved/Config/WindowsServer/Scalability.ini]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.08.15-23.29.49:228][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2022.08.15-23.29.49:229][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.08.15-23.29.49:229][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.08.15-23.29.49:229][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.08.15-23.29.49:229][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.08.15-23.29.49:229][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.08.15-23.29.49:229][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.08.15-23.29.49:229][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.08.15-23.29.49:229][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.08.15-23.29.49:229][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.08.15-23.29.49:229][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.08.15-23.29.49:229][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.08.15-23.29.49:229][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.08.15-23.29.49:229][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2022.08.15-23.29.49:229][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.08.15-23.29.49:229][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2022.08.15-23.29.49:229][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.08.15-23.29.49:229][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.08.15-23.29.49:229][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.08.15-23.29.49:229][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2022.08.15-23.29.49:229][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2022.08.15-23.29.49:229][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../PVP_Game/Saved/Config/WindowsServer/Scalability.ini]
+[2022.08.15-23.29.49:229][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.08.15-23.29.49:229][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.08.15-23.29.49:229][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../PVP_Game/Saved/Config/WindowsServer/Scalability.ini]
+[2022.08.15-23.29.49:229][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2022.08.15-23.29.49:229][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2022.08.15-23.29.49:229][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2022.08.15-23.29.49:229][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.08.15-23.29.49:229][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.08.15-23.29.49:229][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.08.15-23.29.49:229][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2022.08.15-23.29.49:229][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [../../../PVP_Game/Saved/Config/WindowsServer/Engine.ini]
+[2022.08.15-23.29.49:229][  0]LogInit: Computer: DESKTOP-PTH63E6
+[2022.08.15-23.29.49:229][  0]LogInit: User: bitch
+[2022.08.15-23.29.49:229][  0]LogInit: CPU Page size=4096, Cores=4
+[2022.08.15-23.29.49:229][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.08.15-23.29.49:229][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2022.08.15-23.29.49:229][  0]LogMemory: Platform Memory Stats for WindowsServer
+[2022.08.15-23.29.49:229][  0]LogMemory: Process Physical Memory: 112.04 MB used, 112.04 MB peak
+[2022.08.15-23.29.49:229][  0]LogMemory: Process Virtual Memory: 89.50 MB used, 89.50 MB peak
+[2022.08.15-23.29.49:229][  0]LogMemory: Physical Memory: 5899.51 MB used,  2138.66 MB free, 8038.17 MB total
+[2022.08.15-23.29.49:229][  0]LogMemory: Virtual Memory: 134212744.00 MB used,  4984.99 MB free, 134217728.00 MB total
+[2022.08.15-23.29.49:231][  0]LogWindows: WindowsPlatformFeatures disabled or dedicated server build
+[2022.08.15-23.29.49:243][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.08.15-23.29.49:243][  0]LogInit: Using OS detected language (en-US).
+[2022.08.15-23.29.49:244][  0]LogInit: Using OS detected locale (en-US).
+[2022.08.15-23.29.49:244][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2022.08.15-23.29.49:275][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2022.08.15-23.29.49:275][  0]LogODSC: ODSC Thread active.
+[2022.08.15-23.29.49:280][  0]LogInit: Using OS detected language (en-US).
+[2022.08.15-23.29.49:280][  0]LogInit: Using OS detected locale (en-US).
+[2022.08.15-23.29.49:280][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2022.08.15-23.29.49:280][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2022.08.15-23.29.49:282][  0]LogTextLocalizationManager: Compacting localization data took   0.82ms
+[2022.08.15-23.29.49:282][  0]LogAssetRegistry: FAssetRegistry took 0.0009 seconds to start up
+[2022.08.15-23.29.49:368][  0]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
+[2022.08.15-23.29.49:368][  0]LogPackageLocalizationCache: Processed 26 localized package path(s) for 1 prioritized culture(s) in 0.000055 seconds
+[2022.08.15-23.29.49:368][  0]LogPakFile: New pak file ../../../PVP_Game/Content/Paks/PVP_Game-WindowsServer.pak added to pak precacher.
+[2022.08.15-23.29.49:368][  0]LogInit: Selected Device Profile: [WindowsServer]
+[2022.08.15-23.29.49:368][  0]LogInit: Active device profile: [0000024E42D60580][0000024E40744930 49] WindowsServer
+[2022.08.15-23.29.49:368][  0]LogInit: Profiles: [0000024E42D60700][0000024E3B3024A0 49] Windows, [0000024E42D60580][0000024E40744930 49] WindowsServer, 
+[2022.08.15-23.29.49:377][  0]LogSerialization: Display: AllowBulkDataInIoStore: 'true'
+[2022.08.15-23.29.49:383][  0]LogNetVersion: PVP_Game 1.0.0, NetCL: 0, EngineNetVer: 17, GameNetVer: 0 (Checksum: 2832247850)
+[2022.08.15-23.29.49:403][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.08.15-23.29.49:403][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.08.15-23.29.49:404][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2022.08.15-23.29.49:421][  0]LogUObjectArray: 19546 objects as part of root set at end of initial load.
+[2022.08.15-23.29.49:421][  0]LogUObjectAllocator: 3988680 out of 0 bytes used by permanent object pool.
+[2022.08.15-23.29.49:421][  0]LogUObjectArray: CloseDisregardForGC: 19546/0 objects in disregard for GC pool
+[2022.08.15-23.29.49:425][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: C933654C4DD04A5082BF0E9C0EE76B8C | Instance: 37F36A0749AA7D5FEB99CF940E00CB99 (DESKTOP-PTH63E6-3168).
+[2022.08.15-23.29.49:426][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.08.15-23.29.49:426][  0]LogOcInput: OculusInput pre-init called
+[2022.08.15-23.29.49:427][  0]LogEngine: Initializing Engine...
+[2022.08.15-23.29.49:428][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.08.15-23.29.49:432][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.08.15-23.29.49:432][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.08.15-23.29.49:432][  0]LogInit: Texture streaming: Disabled
+[2022.08.15-23.29.49:442][  0]LogInit: Display: Game Engine Initialized.
+[2022.08.15-23.29.49:442][  0]LogInit: Display: Starting Game.
+[2022.08.15-23.29.49:442][  0]LogNet: Browse: /Game/Maps/Match?Name=Player
+[2022.08.15-23.29.49:442][  0]LogLoad: LoadMap: /Game/Maps/Match?Name=Player
+[2022.08.15-23.29.49:442][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2022.08.15-23.29.49:445][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.08.15-23.29.49:446][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.08.15-23.29.49:464][  0]LogAIModule: Creating AISystem for world Match
+[2022.08.15-23.29.49:465][  0]LogLoad: Game class is 'BPGM_TurnBasedGameMode_C'
+[2022.08.15-23.29.49:465][  0]LogOnline: OSS: Creating online subsystem instance for: Steam
+[2022.08.15-23.29.49:480][  0]LogSteamShared: Warning: Steam Dedicated Server API failed to initialize.
+[2022.08.15-23.29.49:480][  0]LogOnline: STEAM: [AppId: 480] Game Server API initialized 0
+[2022.08.15-23.29.49:480][  0]LogOnline: Warning: STEAM: Failed to initialize Steam, this could be due to a Steam server and client running on the same machine. Try running with -NOSTEAM on the cmdline to disable.
+[2022.08.15-23.29.49:480][  0]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2022.08.15-23.29.49:480][  0]LogOnline: Warning: STEAM: Steam API failed to initialize!
+[2022.08.15-23.29.49:481][  0]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2022.08.15-23.29.49:481][  0]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2022.08.15-23.29.49:481][  0]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2022.08.15-23.29.49:481][  0]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2022.08.15-23.29.49:481][  0]LogNet: Created socket for bind address: 0.0.0.0 on port 7777
+[2022.08.15-23.29.49:481][  0]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.08.15-23.29.49:481][  0]LogNet: GameNetDriver IpNetDriver_2147482567 IpNetDriver listening on port 7777
+[2022.08.15-23.29.49:482][  0]LogWorld: Bringing World /Game/Maps/Match.Match up for play (max tick rate 30) at 2022.08.15-16.29.49
+[2022.08.15-23.29.49:482][  0]LogWorld: Bringing up level for play took: 0.000566
+[2022.08.15-23.29.49:482][  0]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2022.08.15-23.29.49:483][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2022.08.15-23.29.49:483][  0]LogLoad: Took 0.039883 seconds to LoadMap(/Game/Maps/Match)
+[2022.08.15-23.29.49:483][  0]LogPakFile: AllPaks IndexSizes: DirectoryHashSize=221600, PathHashSize=16, EntriesSize=32752, TotalSize=254368
+[2022.08.15-23.29.49:483][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2022.08.15-23.29.49:483][  0]LogLoad: (Engine Initialization) Total time: 0.69 seconds
+[2022.08.16-00.31.52:783][670]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61154
+[2022.08.16-00.31.52:828][670]LogHandshake: SendConnectChallenge. Timestamp: 3723.273246, Cookie: 144070147204172182234069027063198141247001022237248121060103
+[2022.08.16-00.31.52:873][672]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61154
+[2022.08.16-00.31.52:877][672]LogHandshake: SendChallengeAck. InCookie: 144070147204172182234069027063198141247001022237248121060103
+[2022.08.16-00.31.52:880][672]LogNet: Server accepting post-challenge connection from: 127.0.0.1:61154
+[2022.08.16-00.31.53:077][672]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.08.16-00.31.53:108][672]LogNet: NotifyAcceptedConnection: Name: Match, TimeStamp: 08/15/22 17:31:53, [UNetConnection] RemoteAddr: 127.0.0.1:61154, Name: IpConnection_2147482560, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.16-00.31.53:113][672]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:61154, Name: IpConnection_2147482560, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.16-00.31.53:170][672]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/Match.Match: Accepted
+[2022.08.16-00.31.53:174][672]LogNet: Remote platform little endian=1
+[2022.08.16-00.31.53:175][672]LogNet: This platform little endian=1
+[2022.08.16-00.31.53:180][672]LogNetVersion: PVP_Game 1.0.0.0, NetCL: 0, EngineNetVer: 17, GameNetVer: 0 (Checksum: 513338249)
+[2022.08.16-00.31.53:236][673]LogNet: Login request: ?Name=DESKTOP-PTH63E6-AE3552D9450186F669E76F8678A83AF9 userId: NULL:DESKTOP-PTH63E6-AE3552D9450186F669E76F8678A83AF9 platform: NULL
+[2022.08.16-00.31.53:269][673]LogNet: Client netspeed is 100000
+[2022.08.16-00.31.53:730][687]LogNet: Join request: /Game/Maps/Match?Name=DESKTOP-PTH63E6-AE3552D9450186F669E76F8678A83AF9?SplitscreenCount=1
+[2022.08.16-00.31.54:209][687]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.08.16-00.31.55:006][687]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2022.08.16-00.31.55:047][687]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2022.08.16-00.31.55:047][687]LogNet: Join succeeded: DESKTOP-PTH63E6-AE35
+[2022.08.16-00.32.25:394][600]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2022.08.16-00.32.25:396][600]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61154, Name: IpConnection_2147482560, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: BP_TurnBasedPlayerController_C_2147482556, Owner: BP_TurnBasedPlayerController_C_2147482556, UniqueId: NULL:DESKTOP-PTH63E6-AE3552D9450186F669E76F8678A83AF9
+[2022.08.16-00.32.25:399][600]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:61154, Name: IpConnection_2147482560, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: BP_TurnBasedPlayerController_C_2147482556, Owner: BP_TurnBasedPlayerController_C_2147482556, UniqueId: NULL:DESKTOP-PTH63E6-AE3552D9450186F669E76F8678A83AF9, Channels: 10, Time: 2022.08.16-00.32.25
+[2022.08.16-00.32.25:404][600]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61154, Name: IpConnection_2147482560, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: BP_TurnBasedPlayerController_C_2147482556, Owner: BP_TurnBasedPlayerController_C_2147482556, UniqueId: NULL:DESKTOP-PTH63E6-AE3552D9450186F669E76F8678A83AF9
+[2022.08.16-00.32.25:452][600]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2022.08.16-00.32.38:782][998]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:50897
+[2022.08.16-00.32.38:782][998]LogHandshake: SendConnectChallenge. Timestamp: 3769.298803, Cookie: 098118236145076107079150106217095232227104218212045194116071
+[2022.08.16-00.32.38:816][999]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:50897
+[2022.08.16-00.32.38:816][999]LogHandshake: SendChallengeAck. InCookie: 098118236145076107079150106217095232227104218212045194116071
+[2022.08.16-00.32.38:816][999]LogNet: Server accepting post-challenge connection from: 127.0.0.1:50897
+[2022.08.16-00.32.38:818][999]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.08.16-00.32.38:819][999]LogNet: NotifyAcceptedConnection: Name: Match, TimeStamp: 08/15/22 17:32:38, [UNetConnection] RemoteAddr: 127.0.0.1:50897, Name: IpConnection_2147482529, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.16-00.32.38:819][999]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:50897, Name: IpConnection_2147482529, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.16-00.32.38:849][  0]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/Match.Match: Accepted
+[2022.08.16-00.32.38:849][  0]LogNet: Remote platform little endian=1
+[2022.08.16-00.32.38:849][  0]LogNet: This platform little endian=1
+[2022.08.16-00.32.38:883][  1]LogNet: Login request: ?Name=DESKTOP-PTH63E6-79354DA241FB8CB893E3DE9D8B853B2F userId: NULL:DESKTOP-PTH63E6-79354DA241FB8CB893E3DE9D8B853B2F platform: NULL
+[2022.08.16-00.32.38:917][  2]LogNet: Client netspeed is 100000
+[2022.08.16-00.32.39:321][ 14]LogNet: Join request: /Game/Maps/Match?Name=DESKTOP-PTH63E6-79354DA241FB8CB893E3DE9D8B853B2F?SplitscreenCount=1
+[2022.08.16-00.32.39:323][ 14]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.08.16-00.32.39:328][ 14]LogNet: Join succeeded: DESKTOP-PTH63E6-7935
+[2022.08.16-00.32.46:873][241]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2022.08.16-00.32.46:873][241]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:50897, Name: IpConnection_2147482529, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: BP_TurnBasedPlayerController_C_2147482525, Owner: BP_TurnBasedPlayerController_C_2147482525, UniqueId: NULL:DESKTOP-PTH63E6-79354DA241FB8CB893E3DE9D8B853B2F
+[2022.08.16-00.32.46:873][241]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:50897, Name: IpConnection_2147482529, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: BP_TurnBasedPlayerController_C_2147482525, Owner: BP_TurnBasedPlayerController_C_2147482525, UniqueId: NULL:DESKTOP-PTH63E6-79354DA241FB8CB893E3DE9D8B853B2F, Channels: 10, Time: 2022.08.16-00.32.46
+[2022.08.16-00.32.46:873][241]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:50897, Name: IpConnection_2147482529, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: BP_TurnBasedPlayerController_C_2147482525, Owner: BP_TurnBasedPlayerController_C_2147482525, UniqueId: NULL:DESKTOP-PTH63E6-79354DA241FB8CB893E3DE9D8B853B2F
+[2022.08.16-00.32.46:875][241]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2022.08.16-05.11.15:677][505]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56104
+[2022.08.16-05.11.15:678][505]LogHandshake: SendConnectChallenge. Timestamp: 20486.193628, Cookie: 208025201181179254213047072113202004120077198173251143182098
+[2022.08.16-05.11.15:710][506]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56104
+[2022.08.16-05.11.15:710][506]LogHandshake: SendChallengeAck. InCookie: 208025201181179254213047072113202004120077198173251143182098
+[2022.08.16-05.11.15:710][506]LogNet: Server accepting post-challenge connection from: 127.0.0.1:56104
+[2022.08.16-05.11.15:716][506]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.08.16-05.11.15:717][506]LogNet: NotifyAcceptedConnection: Name: Match, TimeStamp: 08/15/22 22:11:15, [UNetConnection] RemoteAddr: 127.0.0.1:56104, Name: IpConnection_2147482501, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.16-05.11.15:718][506]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:56104, Name: IpConnection_2147482501, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.16-05.11.15:744][507]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/Match.Match: Accepted
+[2022.08.16-05.11.15:745][507]LogNet: Remote platform little endian=1
+[2022.08.16-05.11.15:745][507]LogNet: This platform little endian=1
+[2022.08.16-05.11.15:794][508]LogOnline: OSS: Creating online subsystem instance for: Steam
+[2022.08.16-05.11.16:030][508]LogSteamShared: Warning: Steam Dedicated Server API failed to initialize.
+[2022.08.16-05.11.16:033][508]LogOnline: STEAM: [AppId: 480] Game Server API initialized 0
+[2022.08.16-05.11.16:033][508]LogOnline: Warning: STEAM: Failed to initialize Steam, this could be due to a Steam server and client running on the same machine. Try running with -NOSTEAM on the cmdline to disable.
+[2022.08.16-05.11.16:034][508]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2022.08.16-05.11.16:054][508]LogOnline: Warning: STEAM: Steam API failed to initialize!
+[2022.08.16-05.11.16:054][508]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2022.08.16-05.11.16:057][508]LogNet: Login request: ?Name=Batonator userId: Steam:76561198062935459 platform: STEAM
+[2022.08.16-05.11.16:058][508]LogNet: PreLogin failure: incompatible_unique_net_id
+[2022.08.16-05.11.16:093][510]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2022.08.16-05.11.16:093][510]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56104, Name: IpConnection_2147482501, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: Steam:76561198062935459
+[2022.08.16-05.11.16:093][510]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:56104, Name: IpConnection_2147482501, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: Steam:76561198062935459, Channels: 2, Time: 2022.08.16-05.11.16
+[2022.08.16-05.11.16:093][510]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56104, Name: IpConnection_2147482501, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: Steam:76561198062935459
+[2022.08.16-05.11.16:094][510]LogNet: UNetConnection::PendingConnectionLost. [UNetConnection] RemoteAddr: 127.0.0.1:56104, Name: IpConnection_2147482501, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: Steam:76561198062935459 bPendingDestroy=0 
+[2022.08.16-05.11.21:513][673]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52454
+[2022.08.16-05.11.21:513][673]LogHandshake: SendConnectChallenge. Timestamp: 20492.030176, Cookie: 156130053017077141060243250002091142222024058047092048148195
+[2022.08.16-05.11.21:547][674]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52454
+[2022.08.16-05.11.21:547][674]LogHandshake: SendChallengeAck. InCookie: 156130053017077141060243250002091142222024058047092048148195
+[2022.08.16-05.11.21:547][674]LogNet: Server accepting post-challenge connection from: 127.0.0.1:52454
+[2022.08.16-05.11.21:547][674]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.08.16-05.11.21:548][674]LogNet: NotifyAcceptedConnection: Name: Match, TimeStamp: 08/15/22 22:11:21, [UNetConnection] RemoteAddr: 127.0.0.1:52454, Name: IpConnection_2147482497, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.16-05.11.21:548][674]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:52454, Name: IpConnection_2147482497, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.16-05.11.21:580][675]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/Match.Match: Accepted
+[2022.08.16-05.11.21:580][675]LogNet: Remote platform little endian=1
+[2022.08.16-05.11.21:580][675]LogNet: This platform little endian=1
+[2022.08.16-05.11.21:614][676]LogOnline: OSS: Creating online subsystem instance for: Steam
+[2022.08.16-05.11.21:667][676]LogSteamShared: Warning: Steam Dedicated Server API failed to initialize.
+[2022.08.16-05.11.21:668][676]LogOnline: STEAM: [AppId: 480] Game Server API initialized 0
+[2022.08.16-05.11.21:668][676]LogOnline: Warning: STEAM: Failed to initialize Steam, this could be due to a Steam server and client running on the same machine. Try running with -NOSTEAM on the cmdline to disable.
+[2022.08.16-05.11.21:669][676]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2022.08.16-05.11.21:670][676]LogOnline: Warning: STEAM: Steam API failed to initialize!
+[2022.08.16-05.11.21:670][676]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2022.08.16-05.11.21:670][676]LogNet: Login request: ?Name=Batonator userId: Steam:76561198062935459 platform: STEAM
+[2022.08.16-05.11.21:671][676]LogNet: PreLogin failure: incompatible_unique_net_id
+[2022.08.16-05.11.21:706][678]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2022.08.16-05.11.21:706][678]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:52454, Name: IpConnection_2147482497, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: Steam:76561198062935459
+[2022.08.16-05.11.21:706][678]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:52454, Name: IpConnection_2147482497, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: Steam:76561198062935459, Channels: 2, Time: 2022.08.16-05.11.21
+[2022.08.16-05.11.21:706][678]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:52454, Name: IpConnection_2147482497, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: Steam:76561198062935459
+[2022.08.16-05.11.21:706][678]LogNet: UNetConnection::PendingConnectionLost. [UNetConnection] RemoteAddr: 127.0.0.1:52454, Name: IpConnection_2147482497, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: Steam:76561198062935459 bPendingDestroy=0 
+[2022.08.16-05.50.08:697][672]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:50982
+[2022.08.16-05.50.08:699][672]LogHandshake: SendConnectChallenge. Timestamp: 22819.205029, Cookie: 014077122239138223253129166019092170228134077202156212205122
+[2022.08.16-05.50.08:721][673]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:50982
+[2022.08.16-05.50.08:721][673]LogHandshake: SendChallengeAck. InCookie: 014077122239138223253129166019092170228134077202156212205122
+[2022.08.16-05.50.08:724][673]LogNet: Server accepting post-challenge connection from: 127.0.0.1:50982
+[2022.08.16-05.50.08:751][673]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.08.16-05.50.08:769][673]LogNet: NotifyAcceptedConnection: Name: Match, TimeStamp: 08/15/22 22:50:08, [UNetConnection] RemoteAddr: 127.0.0.1:50982, Name: IpConnection_2147482493, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.16-05.50.08:772][673]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:50982, Name: IpConnection_2147482493, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.16-05.50.08:783][673]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/Match.Match: Accepted
+[2022.08.16-05.50.08:783][673]LogNet: Remote platform little endian=1
+[2022.08.16-05.50.08:784][673]LogNet: This platform little endian=1
+[2022.08.16-05.50.08:840][675]LogOnline: OSS: Creating online subsystem instance for: Steam
+[2022.08.16-05.50.08:944][675]LogSteamShared: Warning: Steam Dedicated Server API failed to initialize.
+[2022.08.16-05.50.08:961][675]LogOnline: STEAM: [AppId: 480] Game Server API initialized 0
+[2022.08.16-05.50.08:961][675]LogOnline: Warning: STEAM: Failed to initialize Steam, this could be due to a Steam server and client running on the same machine. Try running with -NOSTEAM on the cmdline to disable.
+[2022.08.16-05.50.08:962][675]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2022.08.16-05.50.08:963][675]LogOnline: Warning: STEAM: Steam API failed to initialize!
+[2022.08.16-05.50.08:964][675]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2022.08.16-05.50.08:965][675]LogNet: Login request: ?Name=Batonator userId: Steam:76561198062935459 platform: STEAM
+[2022.08.16-05.50.08:965][675]LogNet: PreLogin failure: incompatible_unique_net_id
+[2022.08.16-05.50.09:000][677]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2022.08.16-05.50.09:000][677]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:50982, Name: IpConnection_2147482493, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: Steam:76561198062935459
+[2022.08.16-05.50.09:000][677]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:50982, Name: IpConnection_2147482493, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: Steam:76561198062935459, Channels: 2, Time: 2022.08.16-05.50.09
+[2022.08.16-05.50.09:000][677]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:50982, Name: IpConnection_2147482493, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: Steam:76561198062935459
+[2022.08.16-05.50.09:000][677]LogNet: UNetConnection::PendingConnectionLost. [UNetConnection] RemoteAddr: 127.0.0.1:50982, Name: IpConnection_2147482493, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: Steam:76561198062935459 bPendingDestroy=0 
+[2022.08.16-05.50.11:311][746]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51396
+[2022.08.16-05.50.11:311][746]LogHandshake: SendConnectChallenge. Timestamp: 22821.828131, Cookie: 220111073046018152159172024022183001184248166030091107099028
+[2022.08.16-05.50.11:345][747]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51396
+[2022.08.16-05.50.11:346][747]LogHandshake: SendChallengeAck. InCookie: 220111073046018152159172024022183001184248166030091107099028
+[2022.08.16-05.50.11:346][747]LogNet: Server accepting post-challenge connection from: 127.0.0.1:51396
+[2022.08.16-05.50.11:354][747]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.08.16-05.50.11:356][747]LogNet: NotifyAcceptedConnection: Name: Match, TimeStamp: 08/15/22 22:50:11, [UNetConnection] RemoteAddr: 127.0.0.1:51396, Name: IpConnection_2147482489, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.16-05.50.11:356][747]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:51396, Name: IpConnection_2147482489, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.16-05.50.11:378][748]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/Match.Match: Accepted
+[2022.08.16-05.50.11:378][748]LogNet: Remote platform little endian=1
+[2022.08.16-05.50.11:379][748]LogNet: This platform little endian=1
+[2022.08.16-05.50.11:416][749]LogOnline: OSS: Creating online subsystem instance for: Steam
+[2022.08.16-05.50.11:508][749]LogSteamShared: Warning: Steam Dedicated Server API failed to initialize.
+[2022.08.16-05.50.11:509][749]LogOnline: STEAM: [AppId: 480] Game Server API initialized 0
+[2022.08.16-05.50.11:510][749]LogOnline: Warning: STEAM: Failed to initialize Steam, this could be due to a Steam server and client running on the same machine. Try running with -NOSTEAM on the cmdline to disable.
+[2022.08.16-05.50.11:510][749]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2022.08.16-05.50.11:511][749]LogOnline: Warning: STEAM: Steam API failed to initialize!
+[2022.08.16-05.50.11:519][749]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2022.08.16-05.50.11:520][749]LogNet: Login request: ?Name=Batonator userId: Steam:76561198062935459 platform: STEAM
+[2022.08.16-05.50.11:520][749]LogNet: PreLogin failure: incompatible_unique_net_id
+[2022.08.16-05.50.11:555][751]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2022.08.16-05.50.11:555][751]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:51396, Name: IpConnection_2147482489, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: Steam:76561198062935459
+[2022.08.16-05.50.11:556][751]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:51396, Name: IpConnection_2147482489, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: Steam:76561198062935459, Channels: 2, Time: 2022.08.16-05.50.11
+[2022.08.16-05.50.11:556][751]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:51396, Name: IpConnection_2147482489, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: Steam:76561198062935459
+[2022.08.16-05.50.11:557][751]LogNet: UNetConnection::PendingConnectionLost. [UNetConnection] RemoteAddr: 127.0.0.1:51396, Name: IpConnection_2147482489, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: Steam:76561198062935459 bPendingDestroy=0 
+[2022.08.16-05.58.34:913][884]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60255
+[2022.08.16-05.58.35:008][884]LogHandshake: SendConnectChallenge. Timestamp: 23325.430041, Cookie: 059185042061239108238010030101115026162133171182071098089066
+[2022.08.16-05.58.35:303][891]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60255
+[2022.08.16-05.58.35:303][891]LogHandshake: SendChallengeAck. InCookie: 059185042061239108238010030101115026162133171182071098089066
+[2022.08.16-05.58.35:303][891]LogNet: Server accepting post-challenge connection from: 127.0.0.1:60255
+[2022.08.16-05.58.35:359][891]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.08.16-05.58.35:364][891]LogNet: NotifyAcceptedConnection: Name: Match, TimeStamp: 08/15/22 22:58:35, [UNetConnection] RemoteAddr: 127.0.0.1:60255, Name: IpConnection_2147482485, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.16-05.58.35:364][891]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:60255, Name: IpConnection_2147482485, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.16-05.58.35:374][891]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/Match.Match: Accepted
+[2022.08.16-05.58.35:374][891]LogNet: Remote platform little endian=1
+[2022.08.16-05.58.35:374][891]LogNet: This platform little endian=1
+[2022.08.16-05.58.35:522][896]LogOnline: OSS: Creating online subsystem instance for: Steam
+[2022.08.16-05.58.35:587][896]LogOnline: STEAM: [AppId: 480] Game Server API initialized 1
+[2022.08.16-05.58.35:595][896]LogOnline: STEAM: Initializing SteamNetworking Layer
+[2022.08.16-05.58.35:606][896]LogOnline: STEAM: Missing P2PCleanupTimeout key in OnlineSubsystemSteam of DefaultEngine.ini, using default
+[2022.08.16-05.58.40:751][896]LogNet: Login request: ?Name=Batonator userId: Steam:UNKNOWN [0x1100001061E9DA3] platform: STEAM
+[2022.08.16-05.58.40:751][896]LogNet: PreLogin failure: incompatible_unique_net_id
+[2022.08.16-05.58.40:751][896]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55000
+[2022.08.16-05.58.40:751][896]LogHandshake: SendConnectChallenge. Timestamp: 23326.038794, Cookie: 203166230146046153028140224036149196081164236209160099234030
+[2022.08.16-05.58.41:257][897]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 5.69, Realtime: 5.70. IpNetDriver_2147482567
+[2022.08.16-05.58.45:241][897]LogWindows: Error: === Critical error: ===
+[2022.08.16-05.58.45:241][897]LogWindows: Error: 
+[2022.08.16-05.58.45:246][897]LogWindows: Error: Fatal error!
+[2022.08.16-05.58.45:246][897]LogWindows: Error: 
+[2022.08.16-05.58.45:247][897]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffffffffffff
+[2022.08.16-05.58.45:252][897]LogWindows: Error: 
+[2022.08.16-05.58.45:252][897]LogWindows: Error: [Callstack] 0x00007ff63af84440 PVP_GameServer.exe!UnknownFunction []
+[2022.08.16-05.58.45:253][897]LogWindows: Error: [Callstack] 0x00007ff63af5b8f4 PVP_GameServer.exe!UnknownFunction []
+[2022.08.16-05.58.45:255][897]LogWindows: Error: [Callstack] 0x00007ff63b16a359 PVP_GameServer.exe!UnknownFunction []
+[2022.08.16-05.58.45:255][897]LogWindows: Error: [Callstack] 0x00007ff64086d2ff PVP_GameServer.exe!UnknownFunction []
+[2022.08.16-05.58.45:256][897]LogWindows: Error: [Callstack] 0x00007ff63da41205 PVP_GameServer.exe!UnknownFunction []
+[2022.08.16-05.58.45:256][897]LogWindows: Error: [Callstack] 0x00007ff64073031e PVP_GameServer.exe!UnknownFunction []
+[2022.08.16-05.58.45:259][897]LogWindows: Error: [Callstack] 0x00007ff6405906e0 PVP_GameServer.exe!UnknownFunction []
+[2022.08.16-05.58.45:259][897]LogWindows: Error: [Callstack] 0x00007ff63aef265b PVP_GameServer.exe!UnknownFunction []
+[2022.08.16-05.58.45:260][897]LogWindows: Error: [Callstack] 0x00007ff63af068ac PVP_GameServer.exe!UnknownFunction []
+[2022.08.16-05.58.45:260][897]LogWindows: Error: [Callstack] 0x00007ff63af0697a PVP_GameServer.exe!UnknownFunction []
+[2022.08.16-05.58.45:260][897]LogWindows: Error: [Callstack] 0x00007ff63af08aac PVP_GameServer.exe!UnknownFunction []
+[2022.08.16-05.58.45:260][897]LogWindows: Error: [Callstack] 0x00007ff63af17364 PVP_GameServer.exe!UnknownFunction []
+[2022.08.16-05.58.45:261][897]LogWindows: Error: [Callstack] 0x00007ff642327cbe PVP_GameServer.exe!UnknownFunction []
+[2022.08.16-05.58.45:261][897]LogWindows: Error: [Callstack] 0x00007ffe4fa77034 KERNEL32.DLL!UnknownFunction []
+[2022.08.16-05.58.45:262][897]LogWindows: Error: [Callstack] 0x00007ffe515e2651 ntdll.dll!UnknownFunction []
+[2022.08.16-05.58.45:262][897]LogWindows: Error: 
+[2022.08.16-05.58.45:301][897]LogExit: Executing StaticShutdownAfterError
+[2022.08.16-05.58.46:907][897]LogWindows: FPlatformMisc::RequestExit(1)
+[2022.08.16-05.58.46:908][897]LogWindows: FPlatformMisc::RequestExitWithStatus(1, 3)
+[2022.08.16-05.58.46:910][897]LogCore: Engine exit requested (reason: Win RequestExit)
+[2022.08.16-05.58.46:925][897]Log file closed, 08/15/22 22:58:46
